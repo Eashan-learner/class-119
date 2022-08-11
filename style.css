@@ -1,0 +1,22 @@
+body{
+    background-color: royalblue;
+}
+h1{
+    background-color: black;
+    color: white;
+}
+#show_sketch{
+    float: right;
+}
+canvas{
+ border: 5px solid white;
+ border-radius: 20px;
+ animation-name: BS;
+ animation-duration: 1s;
+ margin-top:10px ;
+ animation-iteration-count: infinite;
+}
+@keyframes BS {
+    from{box-shadow: 1px 1px 38px yellow;}
+    to{box-shadow: 1px 1px 38px black;}
+} 
